@@ -1,0 +1,114 @@
+{
+  "@context": {
+    "@language": "en-us",
+    "CIP100": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0100/README.md#",
+    "CIP119": "https://github.com/cardano-foundation/CIPs/blob/master/CIP-0119/README.md#",
+    "hashAlgorithm": "CIP100:hashAlgorithm",
+    "body": {
+      "@id": "CIP119:body",
+      "@context": {
+        "references": {
+          "@id": "CIP119:references",
+          "@container": "@set",
+          "@context": {
+            "GovernanceMetadata": "CIP100:GovernanceMetadataReference",
+            "Identity": "CIP119:IdentityReference",
+            "Link": "CIP119:LinkReference",
+            "Other": "CIP100:OtherReference",
+            "label": "CIP100:reference-label",
+            "uri": "CIP100:reference-uri",
+            "referenceHash": {
+              "@id": "CIP119:referenceHash",
+              "@context": {
+                "hashDigest": "CIP119:hashDigest",
+                "hashAlgorithm": "CIP100:hashAlgorithm"
+              }
+            }
+          }
+        },
+        "paymentAddress": "CIP119:paymentAddress",
+        "givenName": "CIP119:givenName",
+        "image": "CIP119:image",
+        "objectives": "CIP119:objectives",
+        "motivations": "CIP119:motivations",
+        "qualifications": "CIP119:qualifications",
+        "doNotList": "CIP119:doNotList"
+      }
+    },
+    "authors": {
+      "@id": "CIP100:authors",
+      "@container": "@set",
+      "@context": {
+        "name": "http://xmlns.com/foaf/0.1/name",
+        "witness": {
+          "@id": "CIP100:witness",
+          "@context": {
+            "witnessAlgorithm": "CIP100:witnessAlgorithm",
+            "publicKey": "CIP100:publicKey",
+            "signature": "CIP100:signature"
+          }
+        }
+      }
+    }
+  },
+  "authors": [],
+  "hashAlgorithm": {
+    "@value": "blake2b-256"
+  },
+  "body": {
+    "doNotList": false,
+    "givenName": {
+      "@value": "QuocTuan"
+    },
+    "motivations": {
+      "@value": "My biggest motivation is to shape my direction to be a part of the cardano ecosystem, because I have been and am dedicating full time to my main job which is to develop knowledge and expertise on the cardano ecosystem. Along with that, I really want to contribute my efforts to the success of our ecosystem in the future."
+    },
+    "objectives": {
+      "@value": "Full name Vu Quoc Tuan\ninvolved in the Cardano ecosystem from the initial funding rounds, member of Tiger Team since its inception. Joined as a community advisor from catalyst's 3rd funding round. \nMy goal is to contribute a small part with my knowledge and experience to the cardano ecosystem. More specifically, by joining the Drep team leader, I can use my knowledge to select good and potential projects, vote and help them grow stronger. Of course, this will have a huge impact on our ecosystem.\n"
+    },
+    "paymentAddress": {
+      "@value": "addr1qx7uk27utzsynl0a4c79ne7rjfxxz6mk06y4c9uurhargcwtly5xxf2t3zxtnmqwuuj2qsnl0tgy525zj78x4dzwq43qej5v3z"
+    },
+    "qualifications": {
+      "@value": "Specifically, my relevant experience and knowledge are:\n- I have participated in all activities related to election results such as: community advisor lv1, lv2, project milestone verification.\n- In addition, I also own personal social networking pages with many followers\n- I have participated in writing proposals from funding rounds 6\n- Along with that is all the experience related to voting selection."
+    },
+    "references": [
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "MY Tiktok "
+        },
+        "uri": {
+          "@value": "https://www.tiktok.com/@catalyst_haskell?_t=8qAzgUTQlL0&_r=1"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "MY Telegram "
+        },
+        "uri": {
+          "@value": "https://t.me/QuocTuan90"
+        }
+      },
+      {
+        "@type": "Link",
+        "label": {
+          "@value": "MY Twitter "
+        },
+        "uri": {
+          "@value": "https://x.com/Quctun7Tuan"
+        }
+      },
+      {
+        "@type": "Identity",
+        "label": {
+          "@value": "Drep Profile"
+        },
+        "uri": {
+          "@value": "https://Quoctuan.com"
+        }
+      }
+    ]
+  }
+}
